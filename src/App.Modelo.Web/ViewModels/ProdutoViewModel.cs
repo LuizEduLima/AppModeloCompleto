@@ -36,7 +36,7 @@ namespace App.Modelo.Web.ViewModels
         [ScaffoldColumn(false)]
         public DateTime DataCadastro { get; set; }
 
-        [DisplayName("Ativo?")]
+        [DisplayName("Ativo ?")]
         public bool Ativo { get; set; }        
        
         public FornecedorViewModel Fornecedor { get; set; }
